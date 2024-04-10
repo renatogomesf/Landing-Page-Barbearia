@@ -1,11 +1,10 @@
-import { Button } from "./components/Button.style"
+import Header from './components/Header/Header'
 
 function App() {
 
   return (
     <>
-      <h1>opa</h1>
-      <Button>clica</Button>
+      <Header></Header>
     </>
   )
 }
