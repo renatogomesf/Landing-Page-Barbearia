@@ -1,10 +1,5 @@
 
-import { Wrapper } from "./Style";
-import { Top } from "./Style"
-import { Div } from "./Style";
-import { ButtonHeader } from "./Style";
-import { Sobre } from "./Style";
-import { ButtonSobre } from "./Style";
+import { Wrapper, Top, Div, ButtonHeader, Sobre, ButtonSobre } from "./Style";
 
 
 import { FaInstagram } from "react-icons/fa";
