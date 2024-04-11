@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 150px;
+    flex: 1;
     color: white;
     padding: 42px 36px;
 
@@ -20,10 +20,16 @@ export const Wrapper = styled.div`
         width: 100%;
         max-width: 530px;
     }
+
+    @media (max-width: 1024px) {
+        flex-wrap: wrap;
+        padding: 80px 36px;
+        gap: 20px;
+    }
 `
 
 export const Texto = styled.div`
-    width: 570px;
+    max-width: 570px;
     display: flex;
     flex-direction: column;
     gap: 20px;

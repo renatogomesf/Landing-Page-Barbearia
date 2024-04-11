@@ -11,6 +11,11 @@ export const Wrapper = styled.div`
     color: white;
     gap: 50px;
     margin: 50px 0px;
+
+    p{
+        padding: 0px 36px;
+        text-align: center;
+    }
 `
 
 export const Div = styled.div`
@@ -35,5 +40,13 @@ export const Whats = styled.div`
 
     img{
         width: 73px;
+    }
+
+    @media (max-width: 620px) {
+        bottom: 100px;
+
+        img{
+            width: 50px;
+        }
     }
 `

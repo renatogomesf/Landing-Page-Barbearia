@@ -1,4 +1,4 @@
-import { Content, Corte1, Corte2, Corte3, Imagens, Texto, Wrapper } from "./style";
+import { Content, Corte, Imagens, Texto, Wrapper } from "./style";
 
 import Corte01 from '../../assets/corte1.png'
 import Corte02 from '../../assets/corte2.png'
@@ -15,27 +15,27 @@ export default function Serviços() {
                     </Texto>
 
                     <Imagens>
-                        <Corte1>
+                        <Corte>
                             <img src={Corte01} alt="corte" />
                             <div>
                                 <p>Corte cabelo</p>
                                 <span>R$ 45,00</span>
                             </div>
-                        </Corte1>
-                        <Corte2>
+                        </Corte>
+                        <Corte>
                             <img src={Corte02} alt="corte" />
                             <div>
                                 <p>Barba completa</p>
                                 <span>R$ 35,00</span>
                             </div>
-                        </Corte2>
-                        <Corte3>
+                        </Corte>
+                        <Corte>
                             <img src={Corte03} alt="corte" />
                             <div>
                                 <p>Cabelo e barba</p>
                                 <span>R$ 70,00</span>
                             </div>
-                        </Corte3>
+                        </Corte>
                     </Imagens>
                 </Wrapper>
             </Content>

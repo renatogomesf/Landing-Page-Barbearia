@@ -27,7 +27,7 @@ export default function Footer() {
                 </Wrapper>
 
                 <Whats>
-                    <img src={Wpp} alt="" />
+                    <img src={Wpp} alt="whatsapp" />
                 </Whats>
             </Content>
         </>

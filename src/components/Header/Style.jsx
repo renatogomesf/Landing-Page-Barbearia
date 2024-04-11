@@ -24,6 +24,14 @@ export const Top = styled.header`
     align-items: flex-start;
     justify-content: space-between;
     padding: 42px 36px;
+
+    @media (max-width: 620px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
 `
 
 export const Div = styled.div`
@@ -44,6 +52,10 @@ export const ButtonHeader = styled.button`
 
     font-weight: 600;
     font-size: 16px;
+
+    @media (max-width: 620px) {
+        display: none;
+    }
 `
 
 export const Sobre = styled.div`
@@ -67,6 +79,18 @@ export const Sobre = styled.div`
         font-weight: 500;
         font-size: 18px;
     }
+
+    @media (max-width: 620px) {
+        h1{
+            max-width: 456px;
+            font-size: 34px;
+        }
+
+        p{
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
 `
 
 export const ButtonSobre = styled.button`
@@ -79,4 +103,11 @@ export const ButtonSobre = styled.button`
 
     font-weight: 700;
     font-size: 24px;
+
+    @media (max-width: 620px) {
+        width: 193px;
+        height: 48px;
+
+        font-size: 16px;
+    }
 `

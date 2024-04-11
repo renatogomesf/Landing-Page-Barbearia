@@ -34,7 +34,7 @@ export const Texto = styled.div`
         font-weight: 500;
         font-size: 18px;
         line-height: 27px;
-        width: 836px;
+        max-width: 836px;
     }
 `
 
@@ -42,10 +42,11 @@ export const Imagens = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
 `
 
-export const Corte1 = styled.div`
+export const Corte = styled.div`
     box-shadow: 4px 6px 14px rgba(0, 0, 0, 0.15);
     border-radius: 16px;
 
@@ -75,69 +76,14 @@ export const Corte1 = styled.div`
             background-color: ${props => props.theme.auxiliary_color.cor01};
         }
     }
-`
 
-export const Corte2 = styled.div`
-    box-shadow: 4px 6px 14px rgba(0, 0, 0, 0.15);
-    border-radius: 16px;
+    @media (max-width: 620px) {
 
-    img{
-        width: 100%;
-        max-width: 313px;
-    }
-
-    div{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0px 15px;
-        height: 76px;
-
-        p{
-            font-weight: 700;
-            font-size: 18px;
-        }
-
-        span{
-            padding: 10px 20px;
-            border-radius: 8px;
-            font-weight: 700;
-            font-size: 14px;
-            color: white;
-            background-color: ${props => props.theme.auxiliary_color.cor01};
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 5px;
         }
     }
 `
-
-export const Corte3 = styled.div`
-    box-shadow: 4px 6px 14px rgba(0, 0, 0, 0.15);
-    border-radius: 16px;
-
-    img{
-        width: 100%;
-        max-width: 313px;
-    }
-
-    div{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0px 15px;
-        height: 76px;
-
-        p{
-            font-weight: 700;
-            font-size: 18px;
-        }
-
-        span{
-            padding: 10px 20px;
-            border-radius: 8px;
-            font-weight: 700;
-            font-size: 14px;
-            color: white;
-            background-color: ${props => props.theme.auxiliary_color.cor01};
-        }
-    }
-`
-
