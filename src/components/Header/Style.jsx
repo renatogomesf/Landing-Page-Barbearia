@@ -1,11 +1,22 @@
 import { styled } from 'styled-components'
 import HeroImg from '../../assets/heroimg.jpg'
 
-export const Wrapper = styled.section`
+
+
+
+export const Content = styled.section`
     background-image: linear-gradient(#06121E, rgba(6, 18, 30, 0.8), rgba(6, 18, 30, 0.8), #06121E), url(${HeroImg});
     background-size: cover;
     background-repeat: no-repeat;
     height: 815px;
+
+    display: flex;
+    justify-content: center;
+`
+
+export const Wrapper = styled.div`
+    width: 100%;
+    max-width: 1300px;
 `
 
 export const Top = styled.header`
