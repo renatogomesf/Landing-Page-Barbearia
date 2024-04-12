@@ -113,7 +113,7 @@ export const Sobre = styled.div`
     @media (max-width: 620px) {
         h1{
             max-width: 456px;
-            font-size: 34px;
+            font-size: 30px;
         }
 
         p{
