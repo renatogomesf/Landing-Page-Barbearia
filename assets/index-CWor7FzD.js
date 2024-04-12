@@ -287,15 +287,18 @@ Error generating stack: `+o.message+`
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-
+    padding: 0px 15px;
     color: white;
     text-align: center;
-    line-height: 72px;
+
 
     h1{
         max-width: 873px;
         font-weight: 700;
         font-size: 48px;
+        line-height: 72px;
+        margin-bottom: 20px;
+        word-wrap: break-word;
     }
 
     p{
