@@ -306,7 +306,7 @@ Error generating stack: `+o.message+`
     @media (max-width: 620px) {
         h1{
             max-width: 456px;
-            font-size: 34px;
+            font-size: 30px;
         }
 
         p{
