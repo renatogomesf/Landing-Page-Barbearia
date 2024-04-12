@@ -1,3 +1,6 @@
+import ScrollReveal from "scrollreveal";
+import { useEffect } from "react";
+
 import { Content, Div, Img, Wrapper, Whats } from "./style";
 
 import { FaInstagram } from "react-icons/fa";
@@ -9,6 +12,17 @@ import Wpp from '../../assets/whatssapp.svg'
 
 
 export default function Footer() {
+
+    useEffect(()=>{
+        ScrollReveal({reset:true})
+
+        ScrollReveal().reveal('.whats', {
+            delay: 300,
+            distance: '30px',
+            origin: 'right',
+        })
+    })
+
     return (
         <>
             <Content>
@@ -26,7 +40,7 @@ export default function Footer() {
                     <p>Copyright© 2023 | Dev Barbearia - Todos os direitos reservados.</p>
                 </Wrapper>
 
-                <Whats>
+                <Whats className="whats">
                     <img src={Wpp} alt="whatsapp" />
                 </Whats>
             </Content>

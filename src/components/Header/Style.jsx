@@ -2,22 +2,23 @@ import { styled } from 'styled-components'
 import HeroImg from '../../assets/heroimg.jpg'
 
 
-
-
 export const Content = styled.section`
     background-image: linear-gradient(#06121E, rgba(6, 18, 30, 0.8), rgba(6, 18, 30, 0.8), #06121E), url(${HeroImg});
     background-size: cover;
     background-repeat: no-repeat;
     height: 815px;
-
     display: flex;
     justify-content: center;
 `
+
+
 
 export const Wrapper = styled.div`
     width: 100%;
     max-width: 1300px;
 `
+
+
 
 export const Top = styled.header`
     display: flex;
@@ -34,13 +35,16 @@ export const Top = styled.header`
     }
 `
 
+
+
 export const Div = styled.div`
     color: white;
     font-size: 32px;
-
     display: flex;
     gap: 15px;
 `
+
+
 
 export const ButtonHeader = styled.button`
     color: ${props => props.theme.neutral_color.cor04};
@@ -49,7 +53,6 @@ export const ButtonHeader = styled.button`
     border-radius: 4px;
     width: 167px;
     height: 38px;
-
     font-weight: 600;
     font-size: 16px;
 
@@ -57,6 +60,8 @@ export const ButtonHeader = styled.button`
         display: none;
     }
 `
+
+
 
 export const Sobre = styled.div`
     display: flex;
@@ -92,6 +97,8 @@ export const Sobre = styled.div`
         }
     }
 `
+
+
 
 export const ButtonSobre = styled.button`
     color: ${props => props.theme.neutral_color.cor04};

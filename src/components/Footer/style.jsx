@@ -2,9 +2,9 @@
 import { styled } from 'styled-components';
 
 export const Content = styled.footer`
-    position: relative;
     display: grid;
     justify-content: center;
+    position: relative;
 `
 
 export const Wrapper = styled.div`
