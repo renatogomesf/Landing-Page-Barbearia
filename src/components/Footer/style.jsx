@@ -9,8 +9,19 @@ export const Content = styled.footer`
 
 export const Wrapper = styled.div`
     color: white;
-    gap: 50px;
+    gap: 40px;
     margin: 50px 0px;
+
+    a{
+        color: white;
+        transition: all 0.5s;
+
+        &:hover{
+            transform: translateY(-8px) scale(1.1);
+            transition: all 0.5s;
+            color: ${props => props.theme.auxiliary_color.cor03};
+        }
+    }
 
     p{
         padding: 0px 36px;
@@ -40,6 +51,12 @@ export const Whats = styled.div`
 
     img{
         width: 73px;
+        transition: 0.5s;
+        cursor: pointer;
+
+        &:hover{
+            transform: scale(1.1);
+        }
     }
 
     @media (max-width: 620px) {

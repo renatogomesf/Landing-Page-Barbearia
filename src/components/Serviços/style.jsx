@@ -49,10 +49,16 @@ export const Imagens = styled.div`
 export const Corte = styled.div`
     box-shadow: 4px 6px 14px rgba(0, 0, 0, 0.15);
     border-radius: 16px;
+    overflow: hidden;
 
     img{
         width: 100%;
         max-width: 313px;
+        transition: 0.5s;
+
+        &:hover{
+            transform: scale(1.1);
+        }
     }
 
     div{
@@ -61,6 +67,7 @@ export const Corte = styled.div`
         justify-content: space-between;
         padding: 0px 15px;
         height: 76px;
+        background-color: white;
 
         p{
             font-weight: 700;

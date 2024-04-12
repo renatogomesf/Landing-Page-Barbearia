@@ -17,7 +17,7 @@ export default function Footer() {
         ScrollReveal({reset:true})
 
         ScrollReveal().reveal('.whats', {
-            delay: 300,
+            delay: 200,
             distance: '30px',
             origin: 'right',
         })
@@ -28,9 +28,15 @@ export default function Footer() {
             <Content>
                 <Wrapper>
                     <Div>
-                        <FaInstagram />
-                        <FaFacebook />
-                        <FaXTwitter />
+                        <a href="">
+                            <FaInstagram />
+                        </a>
+                        <a href="">
+                            <FaFacebook />
+                        </a>
+                        <a href="">
+                            <FaXTwitter />
+                        </a>
                     </Div>
                     
                     <Img>

@@ -16,19 +16,19 @@ export default function Serviços() {
 
 
         ScrollReveal().reveal('.corte1', {
-            delay: 300,
+            delay: 200,
             distance: '50px',
             origin: 'bottom',
         })
 
         ScrollReveal().reveal('.corte2', {
-            delay: 700,
+            delay: 600,
             distance: '50px',
             origin: 'bottom',
         })
 
         ScrollReveal().reveal('.corte3', {
-            delay: 1000,
+            delay: 900,
             distance: '50px',
             origin: 'bottom',
         })

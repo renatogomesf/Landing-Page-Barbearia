@@ -15,7 +15,7 @@ export default function Header() {
     useEffect(()=>{
         ScrollReveal({reset:true})
 
-        var delay = 300
+        var delay = 200
 
         ScrollReveal().reveal('.redes', {
             delay: delay,
@@ -47,21 +47,31 @@ export default function Header() {
                 <Wrapper>
                     <Top>
                         <Div className="redes">
-                            <FaInstagram />
-                            <FaFacebook />
-                            <FaXTwitter />
+                            <a href="">
+                                <FaInstagram />
+                            </a>
+                            <a href="">
+                                <FaFacebook /> 
+                            </a>
+                            <a href="">
+                                <FaXTwitter />
+                            </a>
                         </Div>
 
                         <img className="logo" src={Logo} alt="logo" />
 
-                        <ButtonHeader className="btn">Agendar horário</ButtonHeader>
+                        <div className="btn">
+                            <ButtonHeader>Agendar horário</ButtonHeader>
+                        </div>
                     </Top>
 
                     <Sobre className="sobre">
                         <h1>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE.</h1>
                         <p>Horário de funcionamento: 09:00 ás 19:00</p>
 
-                        <ButtonSobre>Agendar horário</ButtonSobre>
+                        <div>
+                            <ButtonSobre>Agendar horário</ButtonSobre>
+                        </div>
                     </Sobre>
                 </Wrapper>
             </Content>

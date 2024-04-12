@@ -12,7 +12,7 @@ export default function Sobre() {
     useEffect(()=>{
         ScrollReveal({reset:true})
 
-        var delay = 300
+        var delay = 200
 
         ScrollReveal().reveal('.corte', {
             delay: delay,

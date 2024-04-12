@@ -32,16 +32,32 @@ export const Top = styled.header`
         align-items: center;
         justify-content: center;
         gap: 50px;
+
+        .btn{
+            display: none;
+        }
     }
 `
 
 
 
 export const Div = styled.div`
-    color: white;
     font-size: 32px;
     display: flex;
     gap: 15px;
+
+    a{
+        color: white;
+        transition: all 0.5s;
+
+        &:hover{
+            transform: translateY(-8px) scale(1.1);
+            transition: all 0.5s;
+            color: ${props => props.theme.auxiliary_color.cor03};
+        }
+    }
+
+
 `
 
 
@@ -55,10 +71,19 @@ export const ButtonHeader = styled.button`
     height: 38px;
     font-weight: 600;
     font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:hover{
+        border: 1px solid ${props => props.theme.auxiliary_color.cor03};
+        background-color: ${props => props.theme.auxiliary_color.cor03};
+        transition: 0.5s;
+    }
 
     @media (max-width: 620px) {
         display: none;
     }
+
 `
 
 
@@ -107,14 +132,19 @@ export const ButtonSobre = styled.button`
     width: 292px;
     height: 66px;
     margin-top: 36px;
-
+    cursor: pointer;
     font-weight: 700;
     font-size: 24px;
+    transition: 0.5s;
+
+    &:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
 
     @media (max-width: 620px) {
         width: 193px;
         height: 48px;
-
         font-size: 16px;
     }
 `
