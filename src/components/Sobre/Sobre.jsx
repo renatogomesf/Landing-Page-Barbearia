@@ -9,8 +9,9 @@ import ImgSobre from '../../assets/imagens.svg'
 
 export default function Sobre() {
 
+    ScrollReveal({reset:true})
+    
     useEffect(()=>{
-        ScrollReveal({reset:true})
 
         var delay = 200
 

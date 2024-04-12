@@ -12,8 +12,9 @@ import Logo from '../../assets/logo.svg'
 
 export default function Header() {
 
+    ScrollReveal({reset:true})
+    
     useEffect(()=>{
-        ScrollReveal({reset:true})
 
         var delay = 200
 

@@ -16,6 +16,10 @@ export const Content = styled.section`
 export const Wrapper = styled.div`
     width: 100%;
     max-width: 1300px;
+
+    img{
+        visibility: hidden;
+    }
 `
 
 
@@ -25,6 +29,10 @@ export const Top = styled.header`
     align-items: flex-start;
     justify-content: space-between;
     padding: 42px 36px;
+
+    .btn{
+        visibility: hidden;
+    }
 
     @media (max-width: 620px) {
         display: flex;
@@ -45,6 +53,7 @@ export const Div = styled.div`
     font-size: 32px;
     display: flex;
     gap: 15px;
+    visibility: hidden;
 
     a{
         color: white;
@@ -98,6 +107,7 @@ export const Sobre = styled.div`
     color: white;
     text-align: center;
 
+    visibility: hidden;
 
     h1{
         max-width: 873px;

@@ -48,6 +48,7 @@ export const Whats = styled.div`
     position: absolute;
     right: 30px;
     bottom: 30px;
+    visibility: hidden;
 
     img{
         width: 73px;

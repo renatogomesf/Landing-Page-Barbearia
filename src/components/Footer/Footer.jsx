@@ -12,9 +12,10 @@ import Wpp from '../../assets/whatssapp.svg'
 
 
 export default function Footer() {
+    
+    ScrollReveal({reset:true})
 
     useEffect(()=>{
-        ScrollReveal({reset:true})
 
         ScrollReveal().reveal('.whats', {
             delay: 200,

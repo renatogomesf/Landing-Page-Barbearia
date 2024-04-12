@@ -19,6 +19,7 @@ export const Wrapper = styled.div`
     img{
         width: 100%;
         max-width: 530px;
+        visibility: hidden;
     }
 
     @media (max-width: 1024px) {
@@ -33,6 +34,8 @@ export const Texto = styled.div`
     display: flex;
     flex-direction: column;
     gap: 20px;
+
+    visibility: hidden;
 
     h1{
         font-weight: 700;

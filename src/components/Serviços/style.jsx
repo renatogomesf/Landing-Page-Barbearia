@@ -51,6 +51,8 @@ export const Corte = styled.div`
     border-radius: 16px;
     overflow: hidden;
 
+    visibility: hidden;
+
     img{
         width: 100%;
         max-width: 313px;

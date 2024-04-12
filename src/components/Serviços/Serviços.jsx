@@ -11,9 +11,9 @@ import Corte03 from '../../assets/corte3.png'
 
 export default function Serviços() {
 
-    useEffect(()=>{
-        ScrollReveal({reset:true})
+    ScrollReveal({reset:true})
 
+    useEffect(()=>{
 
         ScrollReveal().reveal('.corte1', {
             delay: 200,
