@@ -17,8 +17,6 @@ export const GlobalStyle = createGlobalStyle`
         height: 100vh;
 
         background-color: ${props => props.theme.brand_color.cor01};
-
-        transition: 0.1s;
     }
 
 `
