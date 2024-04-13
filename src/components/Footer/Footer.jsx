@@ -1,4 +1,4 @@
-// import ScrollReveal from "scrollreveal";
+import ScrollReveal from "scrollreveal";
 import { useEffect } from "react";
 
 import { Content, Div, Img, Wrapper, Whats } from "./style";
