@@ -26,7 +26,7 @@ export default function Sobre() {
             distance: '50px',
             origin: 'bottom',
         })
-    })
+    }, [])
 
     return (
         <>

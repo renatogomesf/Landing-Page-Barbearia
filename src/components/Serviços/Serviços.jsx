@@ -32,7 +32,7 @@ export default function Serviços() {
             distance: '50px',
             origin: 'bottom',
         })
-    })
+    }, [])
 
     return (
         <>

@@ -40,7 +40,9 @@ export default function Header() {
             distance: '50px',
             origin: 'bottom',
         })
-    })
+
+        console.log("aaaa")
+    }, [])
 
     return (
         <>

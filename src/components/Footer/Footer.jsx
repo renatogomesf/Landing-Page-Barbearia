@@ -22,7 +22,7 @@ export default function Footer() {
             distance: '30px',
             origin: 'right',
         })
-    })
+    }, [])
 
     return (
         <>
